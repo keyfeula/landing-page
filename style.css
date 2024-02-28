@@ -31,7 +31,7 @@ a {
 
 .section-1-content {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     margin-bottom: 80px;
 }
@@ -108,4 +108,53 @@ button {
 .info-subtext {
     font-size: 18px;
     color: #656565;
+}
+
+.section-3 {
+    background: #e5e7eb;
+    padding: 100px 200px;
+    display: flex;
+}
+
+.quote-block {
+    width: 700px;
+    font-size: 36px;
+    margin: auto;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.section-4 {
+    padding: 70px 225px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #3882f6;
+    padding: 35px 50px;
+    color: #e5e7eb;
+    gap: 100px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.container .signup-btn {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    background: #1f2937;
+    color: #f9faf8;
+    padding: 25px 300px;
+    text-align: center;
 }
